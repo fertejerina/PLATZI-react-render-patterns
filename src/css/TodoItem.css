@@ -1,0 +1,54 @@
+.TodoItem{
+
+}
+
+.TodoItem-text{
+    display: inline-block;
+    background-color: #6D7993;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 9px;
+    font-size: 14px;
+    height: 28px;
+    width: 60%;
+
+}
+
+
+.TodoItem-hecho {
+    display: inline-block;
+    background-color: #d4d4d4;
+    color: rgb(184, 184, 184);
+    font-size: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+.TodoItem-hecho:hover {
+    color: black;
+    background-color: rgb(110, 156, 110);
+}
+
+
+.TodoItem-x{
+    display: inline-block;
+    font-size: 19px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.TodoItem-x:hover{
+    color: rgb(226, 0, 0);
+}

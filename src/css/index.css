@@ -1,0 +1,12 @@
+.root{
+  --primary-color: #26798E;
+  --secondary-color: #63caa7;
+  --alternative-color: #FFC172;
+  --alternative-sec-color: #FFE3B3;
+}
+
+html{
+  font-family: 'Silkscreen', cursive;
+  background-color: #D5D5D5;
+}
+
